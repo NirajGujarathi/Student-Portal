@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="hdrftr.css">
+</head>
+<body>
+<!--This code refreshes the div table every two seconds while the other divsions remain static-->
+<script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+	$(document).ready( function(){
+	$('table').load('load.php');
+	refresh();
+});
+ 
+	function refresh()
+	{
+		setTimeout( function() {
+		//Remove comments(fadeOut and fadeIn) to show transition
+	  	$('#table')/*.fadeOut('slow')*/.load('loadformail.php')/*.fadeIn('slow')*/;
+	  	refresh();
+		}, 2000);				//Refreshes every 2000 ms
+	}
+</script>
+<div class="header">
+		<fieldset>
+			<a href="stupo.html"><img class="logo" src="StuPoLogo.png"></a>
+			<a href="stupo.html"><button name="stupo" type="button" id="stupo">Student Portal</button></a>					  			 
+		</fieldset>
+		<fieldset>
+			<ul>
+				<li><a class="active" href="stupo.html">Home</a></li>
+				<li><a href="#blah">Template</a></li>
+				<li><a href="#blah">What's New</a></li>
+				<li><a href="#blah">About Us</a></li>
+				<li><a href="#blah">Contact Us</a></li>
+		</ul>
+		</fieldset>
+				
+	</div>
+
+<div id="table"></div>
+</body>
+</html>

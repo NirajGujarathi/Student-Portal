@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<students>
+  <rail_form_detail>
+    <n>2</n>
+    <id>123</id>
+    <from>dombivali</from>
+    <to>vidyavihar</to>
+    <rn>Central-Line</rn>
+    <cot>I 	(first class)</cot>
+    <duration>Monthly 		(1 months)</duration>
+    <pf>2017-10-01</pf>
+    <pt>2017-10-22</pt>
+    <pass>fasf654132</pass>
+    <addr>asdaaaaaaaaaaaaaa</addr>
+    <st>not_ready</st>
+  </rail_form_detail>
+  <rail_form_detail>
+    <n>6</n>
+    <id>1620141245</id>
+    <from/>
+    <to>Vidyavihar</to>
+    <rn>Central-Line</rn>
+    <cot>I (first class)</cot>
+    <duration>Monthly (1 months)</duration>
+    <pf>2017-11-12</pf>
+    <pt>2017-11-18</pt>
+    <pass>4564</pass>
+    <addr>jgk</addr>
+    <st>not_ready</st>
+  </rail_form_detail>
+  <rail_form_detail>
+    <n>7</n>
+    <id>123</id>
+    <from/>
+    <to>Tilaknagar</to>
+    <rn>Central-Line</rn>
+    <cot>I (first class)</cot>
+    <duration>Monthly (1 months)</duration>
+    <pf>2017-11-02</pf>
+    <pt>2018-02-16</pt>
+    <pass>sdsfd</pass>
+    <addr>fsfs</addr>
+    <st>not_ready</st>
+  </rail_form_detail>
+  <rail_form_detail>
+    <n>8</n>
+    <id>1620141245</id>
+    <from/>
+    <to>Vidyavihar</to>
+    <rn>Western-Line</rn>
+    <cot>I (first class)</cot>
+    <duration>Monthly (1 months)</duration>
+    <pf>2017-11-04</pf>
+    <pt>2017-11-11</pt>
+    <pass>sdss</pass>
+    <addr>dsds</addr>
+    <st>not_ready</st>
+  </rail_form_detail>
+  <rail_form_detail>
+    <n>9</n>
+    <id>1620141245</id>
+    <from/>
+    <to>Vidyavihar</to>
+    <rn>Western-Line</rn>
+    <cot>I (first class)</cot>
+    <duration>Monthly (1 months)</duration>
+    <pf>2017-11-04</pf>
+    <pt>2017-11-11</pt>
+    <pass>sdss</pass>
+    <addr>dsds</addr>
+    <st>not_ready</st>
+  </rail_form_detail>
+  <rail_form_detail>
+    <n>10</n>
+    <id>1620141245</id>
+    <from/>
+    <to>Vidyavihar</to>
+    <rn>Western-Line</rn>
+    <cot>I (first class)</cot>
+    <duration>Monthly (1 months)</duration>
+    <pf>2017-11-04</pf>
+    <pt>2017-11-11</pt>
+    <pass>sdss</pass>
+    <addr>dsds</addr>
+    <st>not_ready</st>
+  </rail_form_detail>
+</students>
